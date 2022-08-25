@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+body > header{
+    background-color: black;
+    padding: 10px 0;
+}
+body > header > h1{
+    text-align: center;
+    color: white;
+}
+body > main > nav{
+    display: flex;
+    padding: 50px 200px;
+    padding-bottom: 0;
+}
+body > main > nav > a{
+    color: black;
+    font-size: 25px;
+    flex: 3;
+    text-decoration: none;
+}
+body > main > nav > a:hover{
+    text-decoration: underline black solid 2px;
+    opacity: 0.7;
+}
+body > main > hr{
+    height: 1px;
+    background-color: black;
+}
+body > main > section{
+    display: flex;
+}
+body > main > section > div{
+    flex: 6;
+}
+body > main > section > div:first-of-type{
+    flex: 6;
+    background-color: black;
+    color: white; 
+    padding: 50px
+}
+body > main > section > div:first-of-type > h1{
+    font-size: 40px;
+}
+body > main > section > div:first-of-type > p{
+    font-size: 20px;
+}
+body > main > section > div:last-of-type{
+    flex: 6;
+}
